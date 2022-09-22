@@ -1,0 +1,43 @@
+
+body{
+    background: url('https://i.pinimg.com/236x/6a/c0/8f/6ac08f3037ee38595859c78af5f20fa1.jpg');
+
+}
+.avr {
+    padding: 20px;;
+    flex-direction:center;
+    border-radius: 170px;
+    transition-duration: 0.3s;
+    transition-property: color, background-color;
+}
+img.avr:hover{
+    background-color: rgb(50, 33, 20) ;
+    background: url('https://i.pinimg.com/236x/2d/67/f9/2d67f9834649b584682ab58606f5a27e.jpg');
+}
+.infor{
+    font-weight:unset;
+    font-family: 'Playfair Display';        
+    font-size: 15px;
+    color: rgb(50, 33, 20);
+}
+ul li{
+    
+    border-radius: 25px;
+    margin:10px 0px 0px 0px;
+    width:350px;
+    height:50px;
+    background-color:rgb(112, 85, 35);
+    list-style: none;
+    transition-duration: 3s;
+    transition-property: color, background-color;
+    transition-duration: initial;
+}
+.button{
+    font-family: 'Playfair Display';        
+    font-size: 40px;
+}
+ul li:hover{
+    color: #d9d9d9;
+    background: url('https://i.pinimg.com/236x/09/cd/37/09cd3751f9e59f3bc82b982059e7b1c8.jpg');
+    /* background-color: rgb(50, 33, 20) ; */
+}
